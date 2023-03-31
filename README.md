@@ -24,3 +24,4 @@ For this example:
 
 So the output was as follows:
 
+![](https://github.com/Kadkam8a/Practice-1/blob/main/1.png 'Output')
