@@ -15,3 +15,12 @@ A processor ring is a network topology that connects multiple processors in a ci
 Taken from: https://sites.google.com/site/networktopologies12/home/ring--the-beginning
 
 This program in particular makes a cumulative sum from an initial value $x0$ for $m$ cycles in the ring helped by [MPICH](https://www.mpich.org/) 
+
+## Example
+For this example: 
+- $m=10$
+- $x0=2$
+- And we used 4 processors
+
+So the output was as follows:
+
