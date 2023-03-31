@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     int rank, size;
-    int x0 = 5; // initial value
+    int x0 = 0; // initial value
     int m = 10; // cycles number
     int sum = x0; // variable for the cumultive sum
     int next, prev;
@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
             error = 1;
         }
         i++;
+        sum+=1;
     }
     if (!error) {
         printf("Proceso %d: suma acumulativa = %d\n", rank, sum);
